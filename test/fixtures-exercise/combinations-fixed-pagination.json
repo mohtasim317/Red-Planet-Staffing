@@ -1,0 +1,418 @@
+[
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 10 },
+      { "name": "Earth Ecology Enterprises", "shifts": 9 },
+      { "name": "Sun Phosphate Software", "shifts": 9 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 30 },
+      { "name": "Sun Phosphate Software", "shifts": 15 },
+      { "name": "Earth Ecology Enterprises", "shifts": 14 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 10 },
+      { "name": "Sun Phosphate Software", "shifts": 9 },
+      { "name": "Deep Space Technologies", "shifts": 7 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 30 },
+      { "name": "Sun Phosphate Software", "shifts": 15 },
+      { "name": "Deep Space Technologies", "shifts": 9 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 9 },
+      { "name": "Earth Ecology Enterprises", "shifts": 8 },
+      { "name": "Sun Phosphate Software", "shifts": 8 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 29 },
+      { "name": "Sun Phosphate Software", "shifts": 14 },
+      { "name": "Earth Ecology Enterprises", "shifts": 13 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 9 },
+      { "name": "Sun Phosphate Software", "shifts": 8 },
+      { "name": "Deep Space Technologies", "shifts": 7 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 29 },
+      { "name": "Sun Phosphate Software", "shifts": 14 },
+      { "name": "Deep Space Technologies", "shifts": 8 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Earth Ecology Enterprises", "shifts": 8 },
+      { "name": "Saturn Systems", "shifts": 7 },
+      { "name": "Sun Phosphate Software", "shifts": 7 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 27 },
+      { "name": "Earth Ecology Enterprises", "shifts": 13 },
+      { "name": "Sun Phosphate Software", "shifts": 13 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 7 },
+      { "name": "Sun Phosphate Software", "shifts": 7 },
+      { "name": "Deep Space Technologies", "shifts": 7 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 27 },
+      { "name": "Sun Phosphate Software", "shifts": 13 },
+      { "name": "Deep Space Technologies", "shifts": 8 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Earth Ecology Enterprises", "shifts": 8 },
+      { "name": "Deep Space Technologies", "shifts": 7 },
+      { "name": "Saturn Systems", "shifts": 6 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 26 },
+      { "name": "Earth Ecology Enterprises", "shifts": 13 },
+      { "name": "Sun Phosphate Software", "shifts": 12 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Deep Space Technologies", "shifts": 7 },
+      { "name": "Saturn Systems", "shifts": 6 },
+      { "name": "Sun Phosphate Software", "shifts": 6 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": false,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 26 },
+      { "name": "Sun Phosphate Software", "shifts": 12 },
+      { "name": "Deep Space Technologies", "shifts": 8 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 10 },
+      { "name": "Earth Ecology Enterprises", "shifts": 9 },
+      { "name": "Sun Phosphate Software", "shifts": 9 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 30 },
+      { "name": "Sun Phosphate Software", "shifts": 15 },
+      { "name": "Earth Ecology Enterprises", "shifts": 14 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 10 },
+      { "name": "Sun Phosphate Software", "shifts": 9 },
+      { "name": "Deep Space Technologies", "shifts": 7 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 30 },
+      { "name": "Sun Phosphate Software", "shifts": 15 },
+      { "name": "Deep Space Technologies", "shifts": 9 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 9 },
+      { "name": "Earth Ecology Enterprises", "shifts": 8 },
+      { "name": "Sun Phosphate Software", "shifts": 8 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 29 },
+      { "name": "Sun Phosphate Software", "shifts": 14 },
+      { "name": "Earth Ecology Enterprises", "shifts": 13 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 9 },
+      { "name": "Sun Phosphate Software", "shifts": 8 },
+      { "name": "Deep Space Technologies", "shifts": 7 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": false,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 29 },
+      { "name": "Sun Phosphate Software", "shifts": 14 },
+      { "name": "Deep Space Technologies", "shifts": 8 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Earth Ecology Enterprises", "shifts": 8 },
+      { "name": "Saturn Systems", "shifts": 7 },
+      { "name": "Sun Phosphate Software", "shifts": 7 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 27 },
+      { "name": "Earth Ecology Enterprises", "shifts": 13 },
+      { "name": "Sun Phosphate Software", "shifts": 13 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 7 },
+      { "name": "Sun Phosphate Software", "shifts": 7 },
+      { "name": "Deep Space Technologies", "shifts": 7 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": false,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 27 },
+      { "name": "Sun Phosphate Software", "shifts": 13 },
+      { "name": "Deep Space Technologies", "shifts": 8 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Earth Ecology Enterprises", "shifts": 8 },
+      { "name": "Deep Space Technologies", "shifts": 7 },
+      { "name": "Saturn Systems", "shifts": 6 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": false,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 26 },
+      { "name": "Earth Ecology Enterprises", "shifts": 13 },
+      { "name": "Sun Phosphate Software", "shifts": 12 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": false,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Deep Space Technologies", "shifts": 7 },
+      { "name": "Saturn Systems", "shifts": 6 },
+      { "name": "Sun Phosphate Software", "shifts": 6 }
+    ]
+  },
+  {
+    "fixedPagination": true,
+    "pageCorrectly": true,
+    "filterActiveWorkplaces": true,
+    "filterPastShifts": true,
+    "filterShiftsWithoutWorkers": true,
+    "fetchAllWorkplacesBeforeGrouping": true,
+    "expectedResult": [
+      { "name": "Saturn Systems", "shifts": 26 },
+      { "name": "Sun Phosphate Software", "shifts": 12 },
+      { "name": "Deep Space Technologies", "shifts": 8 }
+    ]
+  }
+]
